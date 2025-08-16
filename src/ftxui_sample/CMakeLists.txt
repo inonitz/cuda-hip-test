@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE cuda_hip_test::cuda_hip_test_options
+          cuda_hip_test::cuda_hip_test_warnings)
 
 target_link_system_libraries(
   intro

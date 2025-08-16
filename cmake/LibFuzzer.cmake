@@ -1,4 +1,4 @@
-function(myproject_check_libfuzzer_support var_name)
+function(cuda_hip_test_check_libfuzzer_support var_name)
   set(LibFuzzerTestSource
       "
 #include <cstdint>
